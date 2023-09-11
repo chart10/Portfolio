@@ -6,18 +6,23 @@ const ProjectsPage = () => {
     <div className='projects-page'>
       <h4>Projects</h4>
       <article className='project-card'>
-        <h3>UniRoute</h3>
         <div className='card-content'>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <img src={image} alt='UniRoute webpage' />
+          <div className='project-title'>
+            <h3>UniRoute</h3>
+            <p>
+              Tech Stack: <a>React.js</a> • <a>Python Flask</a> • <a>Node.js</a>{' '}
+              • <a>MySQL</a>
+            </p>
+          </div>
+          <div className='project-elements'>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <img src={image} alt='UniRoute Webpage' />
+          </div>
         </div>
       </article>
     </div>

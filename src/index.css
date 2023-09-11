@@ -23,8 +23,11 @@
 a {
   font-weight: 500;
   text-decoration: inherit;
+  color: #f5eee6;
 }
 a:hover {
+  color: #f3dbc7;
+  text-decoration: underline;
 }
 
 body {

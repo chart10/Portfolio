@@ -2,9 +2,12 @@ import './contactMe.css';
 
 const ContactMe = () => {
   return (
-    <section className='contact-me-page'>
+    <div className='contact-me-page'>
       <h4>Contact Me</h4>
-    </section>
+      {/* TODO:
+            - add links to all socials
+            - create  */}
+    </div>
   );
 };
 export default ContactMe;
