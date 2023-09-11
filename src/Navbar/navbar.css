@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-links {
+  display: flex;
+}
+.site-links a {
+  padding: 1rem;
+  padding-right: 0;
+}
+
+.my-name h3 {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+hr {
+  border-bottom: 1px solid;
+}

@@ -1,4 +1,11 @@
+import './landing.css';
+
 const LandingPage = () => {
-  return <div>LandingPage</div>;
+  return (
+    <div className='landing-page'>
+      <h4>Landing Page</h4>
+      <p className='info-content'>Something visually stimulating</p>
+    </div>
+  );
 };
 export default LandingPage;

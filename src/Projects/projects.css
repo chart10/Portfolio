@@ -1,0 +1,19 @@
+.projects-page {
+  width: 100vw;
+  height: 100vh;
+}
+.project-card {
+  margin: 3rem;
+  border: 1px solid rgba(245, 238, 230, 0.5);
+  border-radius: 2px;
+  padding: 2rem;
+}
+.card-content {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.card-content img {
+  width: 300px;
+  border-radius: 2px;
+}
