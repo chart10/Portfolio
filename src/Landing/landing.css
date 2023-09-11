@@ -3,6 +3,7 @@
   height: 100vh;
 }
 .info-content {
+  margin: 0 3rem;
   border: 1px solid rgba(245, 238, 230, 0.5);
   border-radius: 2px;
   padding: 2rem;

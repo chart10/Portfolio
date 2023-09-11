@@ -1,6 +1,14 @@
 import './projects.css';
 import image from '../assets/uniroute-screenshot.png';
 
+/*
+    TODO:
+    * Make a project card for CreatureDB
+    - Make a project card for Animal Memory card flip game
+    - design a more visually interesting tech stack list
+    - Make scrolling from card to card more visually pleasing
+*/
+
 const ProjectsPage = () => {
   return (
     <div className='projects-page'>
