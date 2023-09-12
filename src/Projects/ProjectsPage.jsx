@@ -1,6 +1,15 @@
 import './projects.css';
-import image from '../assets/uniroute-screenshot.png';
-
+import uniroute from '../assets/uniroute-screenshot.png';
+import creaturedb from '../assets/creaturedb-screenshot.png';
+import {
+  SiJavascript,
+  SiReact,
+  SiFlask,
+  SiNodedotjs,
+  SiPython,
+  SiDocker,
+} from 'react-icons/si';
+import { GrMysql } from 'react-icons/gr';
 /*
     TODO:
     * Make a project card for CreatureDB
@@ -18,8 +27,58 @@ const ProjectsPage = () => {
           <div className='project-title'>
             <h3>UniRoute</h3>
             <p>
-              Tech Stack: <a>React.js</a> • <a>Python Flask</a> • <a>Node.js</a>{' '}
-              • <a>MySQL</a>
+              Tech Stack:{' '}
+              <a title='React.js'>
+                <SiReact />
+              </a>
+              <a title='Python'>
+                <SiPython />
+              </a>
+              <a title='Python Flask'>
+                <SiFlask />
+              </a>
+              <a title='Node.js'>
+                <SiNodedotjs />
+              </a>
+              <a title='MySQL'>
+                <GrMysql />
+              </a>
+              <a title='Docker'>
+                <SiDocker />
+              </a>
+            </p>
+          </div>
+          <div className='project-elements'>
+            <p>
+              UniRoute is a single-page, full stack web app designed to
+              streamline commute schedules for students.
+            </p>
+            <img src={uniroute} alt='UniRoute Webpage' />
+          </div>
+        </div>
+      </article>
+      <article className='project-card'>
+        <div className='card-content'>
+          <div className='project-title'>
+            <h3>Creature DB</h3>
+            <p>
+              <span title='Vanilla Javascript'>
+                <a>
+                  <SiJavascript />
+                </a>
+              </span>
+              <a title='Python'>
+                <SiPython />
+              </a>
+              <a title='Python Flask'>
+                <SiFlask />
+              </a>
+              <a title='Node.js'>
+                <SiNodedotjs />
+              </a>
+              <a title='MySQL'>
+                <GrMysql />
+              </a>
             </p>
           </div>
           <div className='project-elements'>
@@ -29,7 +88,7 @@ const ProjectsPage = () => {
               enim ad minim veniam, quis nostrud exercitation ullamco laboris
               nisi ut aliquip ex ea commodo consequat.
             </p>
-            <img src={image} alt='UniRoute Webpage' />
+            <img src={creaturedb} alt='UniRoute Webpage' />
           </div>
         </div>
       </article>

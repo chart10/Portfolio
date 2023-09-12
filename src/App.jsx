@@ -29,13 +29,13 @@ TODO:
 */
 function App() {
   return (
-    <>
+    <div id='page'>
       <Navbar />
       <LandingPage />
       <AboutMe />
       <ProjectsPage />
       <ContactMe />
-    </>
+    </div>
   );
 }
 

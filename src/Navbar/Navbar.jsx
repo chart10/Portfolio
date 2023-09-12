@@ -19,7 +19,6 @@ const Navbar = () => {
           <a href='./'>Contact Me</a>
         </div>
       </nav>
-      <hr />
     </>
   );
 };
