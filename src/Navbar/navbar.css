@@ -1,12 +1,20 @@
 nav {
-  position: sticky;
+  position: fixed;
+  top: 0;
   height: 4rem;
-  width: 90vw;
+  width: 100vw;
   margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-menu {
+  width: 90%;
   display: flex;
   flex-flow: row;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #f5eee684;
 }
 .site-links {
   display: flex;
@@ -14,9 +22,4 @@ nav {
 .site-links a {
   padding: 1rem;
   padding-right: 0;
-}
-.nav-border {
-  width: 90vw;
-  margin: auto;
-  border-bottom: 1px solid #f5eee684;
 }
