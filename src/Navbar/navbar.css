@@ -1,6 +1,8 @@
 nav {
   position: sticky;
   height: 4rem;
+  width: 90vw;
+  margin: auto;
   display: flex;
   flex-flow: row;
   align-items: center;
@@ -13,12 +15,8 @@ nav {
   padding: 1rem;
   padding-right: 0;
 }
-
-.my-name h3 {
-  text-transform: capitalize;
-  letter-spacing: 2px;
-  font-family: 'Hanken Grotesk', sans-serif;
-}
-hr {
-  border-bottom: 1px solid;
+.nav-border {
+  width: 90vw;
+  margin: auto;
+  border-bottom: 1px solid #f5eee684;
 }

@@ -1,5 +1,6 @@
 .projects-page {
-  width: 100vw;
+  width: 90%;
+  margin: 0 auto;
   min-height: 100vh;
 }
 .project-card {
@@ -39,7 +40,10 @@
   align-self: self-start;
 }
 .project-card img {
-  width: 400px;
-  height: 220px;
+  /* width: 400px; */
+  max-width: 50%;
+  object-fit: contain;
+  /* height: 220px; */
+  /* max-height: 220px; */
   border-radius: 2px;
 }

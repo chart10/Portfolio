@@ -1,4 +1,8 @@
 .contact-me-page {
-  width: 100vw;
+  width: 90%;
+  margin: 0 auto;
   max-height: 100vh;
+}
+ul {
+  list-style-type: none;
 }

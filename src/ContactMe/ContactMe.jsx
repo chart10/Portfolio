@@ -11,7 +11,16 @@ import './contactMe.css';
 const ContactMe = () => {
   return (
     <div className='contact-me-page'>
-      <h4>Contact Me</h4>
+      <button>Contact Me</button>
+      <div className='social-contacts'>
+        <h3> Find me at</h3>
+        <>
+          <a>GitHub</a>
+          <a>LinkedIn</a>
+          <a>Reddit</a>
+          <a>Twitter</a>
+        </>
+      </div>
     </div>
   );
 };

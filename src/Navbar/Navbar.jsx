@@ -19,6 +19,7 @@ const Navbar = () => {
           <a href='./'>Contact Me</a>
         </div>
       </nav>
+      <div className='nav-border'></div>
     </>
   );
 };

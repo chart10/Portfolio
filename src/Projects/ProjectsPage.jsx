@@ -51,7 +51,11 @@ const ProjectsPage = () => {
           <div className='project-elements'>
             <p>
               UniRoute is a single-page, full stack web app designed to
-              streamline commute schedules for students.
+              streamline weekly commute schedules for students. Built with two
+              other students using Agile development, UniRoute incorporates a
+              client-side React interface with Google Maps API, a MySQL
+              database, and a back end server running on the Python Flask
+              framework.
             </p>
             <img src={uniroute} alt='UniRoute Webpage' />
           </div>
