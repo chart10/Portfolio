@@ -10,18 +10,20 @@ const Navbar = () => {
       <nav>
         <div className='navbar-menu'>
           <div className='my-name'>
-            <h3>CHRISTIAN HART</h3>
+            <h3>
+              <a href='#landing-page'>CHRISTIAN HART</a>
+            </h3>
           </div>
           <div className='social-links'>{/* resume, LinkedIn, GitHub */}</div>
           <div className='site-links'>
-            <a href='./'>About Me</a>
-            <a href='./'>Projects</a>
+            <a href='#about-me'>About Me</a>
+            <a href='#projects-page'>Projects</a>
             <a href='./'>Resumé</a>
-            <a href='./'>Contact Me</a>
+            <a href='#contact-me-page'>Contact Me</a>
           </div>
         </div>
       </nav>
-      <div className='nav-border'></div>
+      {/* <div className='nav-border'></div> */}
     </>
   );
 };

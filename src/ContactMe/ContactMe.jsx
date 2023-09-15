@@ -2,6 +2,7 @@ import './contactMe.css';
 
 /*
   TODO:
+    - Figure out how to prevent contact me from being hidden by nav
     - add links to all socials
     - Write a sentence encouraging the viewer to reach out if 
       they are interested in utilizing my skills
@@ -10,7 +11,7 @@ import './contactMe.css';
 
 const ContactMe = () => {
   return (
-    <div className='contact-me-page'>
+    <div className='page' id='contact-me-page'>
       <button>Contact Me</button>
       <div className='social-contacts'>
         <h3> Find me at</h3>

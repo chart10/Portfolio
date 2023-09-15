@@ -1,7 +1,5 @@
-.contact-me-page {
-  width: 90%;
-  margin: 0 auto;
-  max-height: 100vh;
+#contact-me-page {
+  min-height: 100vh-4rem;
 }
 ul {
   list-style-type: none;

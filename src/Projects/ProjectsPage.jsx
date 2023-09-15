@@ -20,7 +20,7 @@ import { GrMysql } from 'react-icons/gr';
 
 const ProjectsPage = () => {
   return (
-    <div className='projects-page'>
+    <div className='page' id='projects-page'>
       <h4>Projects</h4>
       <article className='project-card'>
         <div className='card-content'>

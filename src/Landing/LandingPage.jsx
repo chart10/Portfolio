@@ -9,7 +9,7 @@ import './landing.css';
 
 const LandingPage = () => {
   return (
-    <div className='landing-page'>
+    <div className='page' id='landing-page'>
       <h4>Landing Page</h4>
       <p className='info-content'>
         I am a web developer and full stack engineer from Atlanta, Georgia. I
