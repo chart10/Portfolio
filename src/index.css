@@ -1,9 +1,14 @@
 /* GLOBAL SELECTORS */
-
+/* Fonts */
 @font-face {
   font-family: droid;
   src: url(./assets/droid.otf);
 }
+@font-face {
+  font-family: tusker-grotesk;
+  src: url(./assets/TuskerGrotesk-1500Medium.otf);
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -51,11 +56,25 @@ h3 {
 }
 h4 {
   font-family: droid;
-  font-size: 6rem;
-  letter-spacing: 4px;
+  font-size: 8rem;
   font-weight: 500;
+  letter-spacing: 4px;
+  text-transform: uppercase;
   margin: 0;
   color: #f5eee6;
+}
+button {
+  background: #f5eee6;
+  border: 1px solid #f5eee6;
+  border-radius: 24px;
+  padding: 0 1rem;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 2rem;
+  color: #131313;
+  text-transform: uppercase;
+}
+button p {
+  margin: 0;
 }
 .page {
   width: 90%;

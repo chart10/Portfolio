@@ -2,7 +2,8 @@
   width: 90%;
   margin: 0 auto;
   min-height: 100vh;
-  margin-top: 4rem;
+}
+#landing-name {
 }
 .info-content {
   margin: 0 3rem;
