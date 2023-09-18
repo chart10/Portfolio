@@ -87,10 +87,10 @@ const ProjectsPage = () => {
           </div>
           <div className='project-elements'>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Creature DB is a full stack website built as a veterinary records
+              management tool, allowing customers to view the medical records of
+              thier pets and healthcare professionals to edit and update record
+              details.
             </p>
             <img src={creaturedb} alt='UniRoute Webpage' />
           </div>

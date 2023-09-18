@@ -3,7 +3,37 @@
   margin: 0 auto;
   min-height: 100vh;
 }
+#name-and-title {
+  text-align: left;
+}
 #landing-name {
+  padding-bottom: 0;
+  margin-bottom: -1.15rem;
+}
+#landing-name-subtitle {
+  padding-left: 0.275rem;
+  margin-top: 0;
+  font-family: migra;
+  font-weight: 100;
+  font-size: 1.2rem;
+}
+#headshot {
+  height: 250px;
+  width: 250px;
+  border: 1px solid rgba(245, 238, 230, 0.5);
+  border-radius: 2px;
+  margin: 1rem 1rem 1rem 0;
+}
+.icon {
+  padding: 0;
+  transform: translateY(0.3rem) translateX(0.034rem);
+}
+#linkedin {
+  transform: translateY(0.275rem) translateX(0.1rem);
+}
+.button-icon {
+  border-radius: 50%;
+  padding: 0 0.4rem;
 }
 .info-content {
   margin: 0 3rem;

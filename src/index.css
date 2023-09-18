@@ -8,6 +8,10 @@
   font-family: tusker-grotesk;
   src: url(./assets/TuskerGrotesk-1500Medium.otf);
 }
+@font-face {
+  font-family: migra;
+  src: url(./assets/Migra-Extrabold.otf);
+}
 
 html {
   scroll-behavior: smooth;
@@ -67,6 +71,7 @@ button {
   background: #f5eee6;
   border: 1px solid #f5eee6;
   border-radius: 24px;
+  margin: 0.5rem 0.2rem;
   padding: 0 1rem;
   font-family: 'Hanken Grotesk', sans-serif;
   font-size: 2rem;

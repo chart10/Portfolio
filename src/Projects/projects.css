@@ -29,7 +29,9 @@
   flex-direction: row;
   gap: 1rem;
 }
-
+.project-elements p {
+  text-align: left;
+}
 .card-content h3 {
   text-transform: uppercase;
   letter-spacing: 2px;
