@@ -1,8 +1,5 @@
 import './landing.css';
-import { SiGithub } from 'react-icons/si';
-import { FaLinkedinIn } from 'react-icons/fa';
-import Button from '../components/button/button';
-import IconButton from '../components/iconButton/iconButton';
+import ContactMe from '../ContactMe/ContactMe';
 
 /*
   TODO:
@@ -16,7 +13,6 @@ const LandingPage = () => {
   const emailLink = () => {
     window.location.href = 'mailto:christiantaylorhart@gmail.com';
   };
-
   const openResume = () => {
     window.open('/ChristianHartResume.pdf', '_blank');
   };
@@ -48,12 +44,7 @@ const LandingPage = () => {
             Java, and MySQL and I'm constantly adding new tools to my kit. Hit
             me up if you'd like to collaborate!
           </p>
-          <div className='contact-bar'>
-            <Button onClick={emailLink} btnText='Contact me' />
-            <Button onClick={openResume} btnText='Resumé' />
-            <IconButton onClick={openGitHub} icon={<SiGithub />} />
-            <IconButton onClick={openLinkedIn} icon={<FaLinkedinIn />} />
-          </div>
+          <ContactMe />
         </div>
       </div>
     </div>

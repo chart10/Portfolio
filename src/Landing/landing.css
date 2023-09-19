@@ -39,13 +39,13 @@
   display: flex;
   justify-content: center;
 }
-.icon {
+/* .icon {
   padding: 0;
   transform: translateY(0.3rem) translateX(0.034rem);
 }
 #linkedin {
   transform: translateY(0.275rem) translateX(0.1rem);
-}
+} */
 
 .landing-content {
   margin: 0 3rem;

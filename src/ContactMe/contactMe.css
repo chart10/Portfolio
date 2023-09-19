@@ -1,6 +1,4 @@
-#contact-me-page {
-  padding-bottom: -4rem;
-}
-ul {
-  list-style-type: none;
+.contact-bar {
+  display: flex;
+  justify-content: center;
 }
