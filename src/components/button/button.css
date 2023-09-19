@@ -2,13 +2,15 @@
   background: #f5eee6;
   border: 1px solid #f5eee6;
   border-radius: 24px;
-  margin: 0.5rem 0.2rem;
-  padding: 0 1rem;
+  margin: 0.5rem 0.75rem;
+  padding: 0 10px;
   font-family: 'Hanken Grotesk', sans-serif;
-  font-size: 2rem;
+  font-size: 20px;
   color: #131313;
   text-transform: uppercase;
   transition: 0.3s ease-in-out;
+  height: 31px;
+  width: auto;
 }
 .btn:hover {
   background: #131313;
