@@ -16,8 +16,16 @@ const LandingPage = () => {
   };
 
   const openResume = () => {
-    console.log('opening resume');
     window.open('src/assets/ChristianHartResume.pdf', '_blank');
+  };
+  const openGitHub = () => {
+    window.open('https://github.com/chart10', '_blank');
+  };
+  const openLinkedIn = () => {
+    window.open(
+      'https://www.linkedin.com/in/christian-hart-7b375174/',
+      '_blank'
+    );
   };
 
   return (
@@ -43,10 +51,10 @@ const LandingPage = () => {
         <button onClick={openResume}>
           <p id='text-scroll'>Resumé</p>
         </button>
-        <button className='button-icon'>
+        <button className='button-icon' onClick={openGitHub}>
           <SiGithub className='icon' />
         </button>
-        <button className='button-icon'>
+        <button className='button-icon' onClick={openLinkedIn}>
           <FaLinkedinIn className='icon' id='linkedin' />
         </button>
       </div>
