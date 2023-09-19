@@ -67,40 +67,6 @@ h4 {
   margin: 0;
   color: #f5eee6;
 }
-button {
-  background: #f5eee6;
-  border: 1px solid #f5eee6;
-  border-radius: 24px;
-  margin: 0.5rem 0.2rem;
-  padding: 0 1rem;
-  font-family: 'Hanken Grotesk', sans-serif;
-  font-size: 2rem;
-  color: #131313;
-  text-transform: uppercase;
-  transition: 0.3s ease-in-out;
-}
-button:hover {
-  background: #131313;
-  color: #f5eee6;
-}
-button p {
-  margin: 0;
-}
-/* #text-scroll {
-  animation: text-ticker 3s linear infinite;
-  animation-play-state: paused;
-}
-#text-scroll:hover {
-  animation-play-state: running;
-}
-@keyframes text-ticker {
-  from {
-    transform: translateX(-115%);
-  }
-  to {
-    transform: translateX(115%);
-  }
-} */
 .page {
   width: 90%;
   margin: 0 auto;

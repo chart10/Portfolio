@@ -31,10 +31,7 @@
 #linkedin {
   transform: translateY(0.275rem) translateX(0.1rem);
 }
-.button-icon {
-  border-radius: 50%;
-  padding: 0 0.4rem;
-}
+
 .info-content {
   margin: 0 3rem;
   /* border: 1px solid rgba(245, 238, 230, 0.5); */

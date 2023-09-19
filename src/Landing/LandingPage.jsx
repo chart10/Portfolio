@@ -1,6 +1,8 @@
 import './landing.css';
 import { SiGithub } from 'react-icons/si';
 import { FaLinkedinIn } from 'react-icons/fa';
+import Button from '../components/button/button';
+import IconButton from '../components/iconButton/iconButton';
 
 /*
   TODO:
@@ -45,18 +47,10 @@ const LandingPage = () => {
         like to collaborate!
       </p>
       <div className='contact-bar'>
-        <button onClick={emailLink}>
-          <p id='text-scroll'>Contact me </p>
-        </button>
-        <button onClick={openResume}>
-          <p id='text-scroll'>Resumé</p>
-        </button>
-        <button className='button-icon' onClick={openGitHub}>
-          <SiGithub className='icon' />
-        </button>
-        <button className='button-icon' onClick={openLinkedIn}>
-          <FaLinkedinIn className='icon' id='linkedin' />
-        </button>
+        <Button onClick={emailLink} btnText='Contact me' />
+        <Button onClick={openResume} btnText='Resumé' />
+        <IconButton onClick={openGitHub} icon={<SiGithub />} />
+        <IconButton onClick={openLinkedIn} icon={<FaLinkedinIn />} />
       </div>
     </div>
   );
