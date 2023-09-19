@@ -27,7 +27,6 @@ const ProjectsPage = () => {
           <div className='project-title'>
             <h3>UniRoute</h3>
             <p>
-              Tech Stack:{' '}
               <a title='React.js'>
                 <SiReact />
               </a>

@@ -49,3 +49,15 @@
   /* max-height: 220px; */
   border-radius: 2px;
 }
+
+@media screen and (max-width: 650px) {
+  .project-title {
+    flex-direction: column;
+  }
+  .project-elements {
+    flex-direction: column;
+  }
+  .project-card img {
+    max-width: 100%;
+  }
+}

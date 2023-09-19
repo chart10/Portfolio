@@ -18,7 +18,7 @@ const Navbar = () => {
           <div className='site-links'>
             <a href='#about-me'>About Me</a>
             <a href='#projects-page'>Projects</a>
-            <a href='./'>Resumé</a>
+
             <a href='#contact-me-page'>Contact Me</a>
           </div>
         </div>

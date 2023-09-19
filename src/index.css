@@ -69,7 +69,8 @@ h4 {
 }
 .page {
   width: 90%;
-  margin: 0 auto;
+  min-width: 500px;
   min-height: 100vh;
+  margin: 0 auto;
   padding-top: 4rem;
 }
