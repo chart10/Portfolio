@@ -18,11 +18,13 @@
 }
 #landing-name {
   padding-bottom: 0;
+  line-height: 1;
+  margin-top: 2rem;
   margin-bottom: -1.15rem;
 }
 #landing-name-subtitle {
-  padding-left: 0.275rem;
-  margin-top: 0;
+  padding-left: 4px;
+  margin-top: 16px;
   font-family: migra;
   font-weight: 100;
   font-size: 1.2rem;
@@ -35,6 +37,7 @@
   border-radius: 2px;
   margin: 1rem;
 }
+
 .landing-content {
   margin: 0 3rem;
   border: none;

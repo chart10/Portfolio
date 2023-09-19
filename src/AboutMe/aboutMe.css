@@ -6,9 +6,10 @@
 }
 #about-me-title {
   margin-bottom: -1.15rem;
+  line-height: 1;
 }
 #about-me-subtitle {
-  margin-top: 0;
+  margin-top: 16px;
   padding-right: 8px;
   font-family: migra;
   font-weight: 100;
