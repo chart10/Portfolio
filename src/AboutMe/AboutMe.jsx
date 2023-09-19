@@ -10,8 +10,10 @@ import './aboutMe.css';
 const AboutMe = () => {
   return (
     <div className='page' id='about-me'>
-      <h4>Hello! I'm Christian</h4>
-      <h3 className='career=roles'>Developer & Designer</h3>
+      <div id='about-me-heading'>
+        <h4 id='about-me-title'>Hello! I'm Christian</h4>
+        <h5 id='about-me-subtitle'>Developer & Designer</h5>
+      </div>
       <div className='info-content'>
         <p>
           I am a web developer and full stack engineer from Atlanta, Georgia. I

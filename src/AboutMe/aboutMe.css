@@ -1,10 +1,27 @@
-.about-me {
-  width: 90%;
+#about-me-heading {
   margin: 0 auto;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+#about-me-title {
+  margin-bottom: -1.15rem;
+}
+#about-me-subtitle {
+  margin-top: 0;
+  padding-right: 8px;
+  font-family: migra;
+  font-weight: 100;
+  font-size: 1.2rem;
+  text-align: right;
 }
 .info-content {
   border: 1px solid rgba(245, 238, 230, 0.5);
   border-radius: 2px;
   padding: 2rem;
+}
+@media screen and (max-width: 697px) {
+  #about-me-subtitle {
+    text-align: center;
+  }
 }
