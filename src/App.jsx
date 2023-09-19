@@ -6,7 +6,7 @@ import AboutMe from './AboutMe/AboutMe';
 import ProjectsPage from './Projects/ProjectsPage';
 import ContactMe from './ContactMe/ContactMe';
 import Navbar from './Navbar/Navbar';
-import Footer from './footer/footer';
+import Footer from './components/footer/footer';
 
 /* 
 TODO:
