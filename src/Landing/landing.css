@@ -3,6 +3,16 @@
   margin: 0 auto;
   min-height: 100vh;
 }
+#content-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#content-col {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+}
 #name-and-title {
   text-align: left;
 }
@@ -20,9 +30,10 @@
 #headshot {
   height: 250px;
   width: 250px;
+  min-width: 250px;
   border: 1px solid rgba(245, 238, 230, 0.5);
   border-radius: 2px;
-  margin: 1rem 1rem 1rem 0;
+  margin: 1rem;
 }
 .contact-bar {
   display: flex;
@@ -36,9 +47,10 @@
   transform: translateY(0.275rem) translateX(0.1rem);
 }
 
-.info-content {
+.landing-content {
   margin: 0 3rem;
-  /* border: 1px solid rgba(245, 238, 230, 0.5); */
+  border: none;
   border-radius: 2px;
   padding: 2rem;
+  text-align: left;
 }

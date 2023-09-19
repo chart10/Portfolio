@@ -36,21 +36,25 @@ const LandingPage = () => {
         <h4 id='landing-name'>Christian Hart</h4>
         <h5 id='landing-name-subtitle'>Web Developer & Software Engineer</h5>
       </div>
-      <div id='headshot'>
-        <img src='' alt="Christian's Headshot" />
-      </div>
-      <p className='info-content'>
-        I am a web developer and full stack engineer from Atlanta, Georgia. I
-        have a strong passion for building meaningful experiences for people
-        through web design. I work with JavaScript, React, Python, Java, and
-        MySQL and I'm constantly adding new tools to my kit. Hit me up if you'd
-        like to collaborate!
-      </p>
-      <div className='contact-bar'>
-        <Button onClick={emailLink} btnText='Contact me' />
-        <Button onClick={openResume} btnText='Resumé' />
-        <IconButton onClick={openGitHub} icon={<SiGithub />} />
-        <IconButton onClick={openLinkedIn} icon={<FaLinkedinIn />} />
+      <div id='content-row'>
+        <div id='headshot'>
+          <img src='' alt="Christian's Headshot" />
+        </div>
+        <div id='content-col'>
+          <p className='landing-content'>
+            I am a web developer and full stack engineer from Atlanta, Georgia.
+            I have a strong passion for building meaningful experiences for
+            people through web design. I work with JavaScript, React, Python,
+            Java, and MySQL and I'm constantly adding new tools to my kit. Hit
+            me up if you'd like to collaborate!
+          </p>
+          <div className='contact-bar'>
+            <Button onClick={emailLink} btnText='Contact me' />
+            <Button onClick={openResume} btnText='Resumé' />
+            <IconButton onClick={openGitHub} icon={<SiGithub />} />
+            <IconButton onClick={openLinkedIn} icon={<FaLinkedinIn />} />
+          </div>
+        </div>
       </div>
     </div>
   );
