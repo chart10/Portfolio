@@ -15,3 +15,7 @@
   color: #f5eee6;
   cursor: pointer;
 }
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+}

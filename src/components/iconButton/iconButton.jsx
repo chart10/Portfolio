@@ -3,7 +3,7 @@ import './iconButton.css';
 const Button = (props) => {
   return (
     <button className='icon-btn' onClick={props.onClick}>
-      {props.icon}
+      <div className='icon-wrapper'>{props.icon}</div>
     </button>
   );
 };
