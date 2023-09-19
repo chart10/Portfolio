@@ -10,7 +10,7 @@ import './aboutMe.css';
 const AboutMe = () => {
   return (
     <div className='page' id='about-me'>
-      <h4>About Me</h4>
+      <h4>Hello! I'm Christian</h4>
       <h3 className='career=roles'>Developer & Designer</h3>
       <div className='info-content'>
         <p>

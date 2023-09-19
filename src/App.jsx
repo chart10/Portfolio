@@ -7,6 +7,7 @@ import AboutMe from './AboutMe/AboutMe';
 import ProjectsPage from './Projects/ProjectsPage';
 import ContactMe from './ContactMe/ContactMe';
 import Navbar from './Navbar/Navbar';
+import Footer from './footer/footer';
 
 /* 
 TODO:
@@ -34,6 +35,7 @@ function App() {
       <LandingPage />
       <AboutMe />
       <ProjectsPage />
+      <Footer />
       <ContactMe />
     </div>
   );
