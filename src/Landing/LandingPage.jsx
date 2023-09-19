@@ -7,9 +7,19 @@ import { FaLinkedinIn } from 'react-icons/fa';
     - Think of and implement a programming idea to pull the viewer in,
       Need to be unique and visual interesting
     - Include a one sentence bio
+    - Add code to prepopulate Email Subject line
 */
 
 const LandingPage = () => {
+  const emailLink = () => {
+    window.location.href = 'mailto:christiantaylorhart@gmail.com';
+  };
+
+  const openResume = () => {
+    console.log('opening resume');
+    window.open('src/assets/ChristianHartResume.pdf', '_blank');
+  };
+
   return (
     <div className='page' id='landing-page'>
       <div id='name-and-title'>
@@ -27,10 +37,10 @@ const LandingPage = () => {
         like to collaborate!
       </p>
       <div className='contact-bar'>
-        <button>
+        <button onClick={emailLink}>
           <p id='text-scroll'>Contact me </p>
         </button>
-        <button>
+        <button onClick={openResume}>
           <p id='text-scroll'>Resumé</p>
         </button>
         <button className='button-icon'>
