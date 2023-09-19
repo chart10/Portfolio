@@ -18,7 +18,7 @@ const LandingPage = () => {
   };
 
   const openResume = () => {
-    window.open('public/ChristianHartResume.pdf', '_blank');
+    window.open('/ChristianHartResume.pdf', '_blank');
   };
   const openGitHub = () => {
     window.open('https://github.com/chart10', '_blank');
