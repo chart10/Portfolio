@@ -1,5 +1,6 @@
 import unirouteImg from './uniroute-screenshot.png';
 import creaturedbImg from './creaturedb-screenshot.png';
+import { SiReact } from 'react-icons/si';
 
 export const projects = [
   {

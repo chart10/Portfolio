@@ -22,7 +22,7 @@ const LandingPage = () => {
           <img src={portrait} alt="Christian's Headshot" />
         </div>
         <div id='content-col'>
-          <p className='landing-content'>
+          <p className='landing-text'>
             I am a web developer and full stack engineer from Atlanta, Georgia.
             I have a strong passion for building meaningful experiences for
             people through web design. I work with JavaScript, React, Python,

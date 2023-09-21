@@ -1,4 +1,5 @@
 import './projectCard.css';
+import { BsArrowReturnRight, BsBoxArrowInRight } from 'react-icons/bs';
 import TechStackList from '../techStackList/techStackList';
 
 const projectCard = ({ title, id, text, url, repoURL, techStack, image }) => {
@@ -12,11 +13,11 @@ const projectCard = ({ title, id, text, url, repoURL, techStack, image }) => {
         <div className='project-text'>
           <p>{text}</p>
           <div className='project-text-footer'>
-            <a href={repoURL} target='_blank' className='project-src'>
-              Source Code
-            </a>
             <a href={url} target='_blank' className='project-site-link'>
-              Try it!
+              <BsArrowReturnRight /> Try it!
+            </a>
+            <a href={repoURL} target='_blank' className='project-src'>
+              <BsArrowReturnRight /> Source Code
             </a>
           </div>
         </div>
