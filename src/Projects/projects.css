@@ -49,8 +49,19 @@
   /* max-height: 220px; */
   border-radius: 2px;
 }
+.project-text-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: migra;
+  font-size: 1rem;
+  align-items: center;
+}
+.project-text-footer a {
+  align-items: center;
+}
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
   .project-title {
     flex-direction: column;
   }
