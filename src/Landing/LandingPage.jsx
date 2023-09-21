@@ -1,5 +1,6 @@
 import './landing.css';
 import ContactMe from '../ContactMe/ContactMe';
+import portrait from '../assets/christian-hart-portrait2.jpg';
 
 /*
   TODO:
@@ -10,22 +11,6 @@ import ContactMe from '../ContactMe/ContactMe';
 */
 
 const LandingPage = () => {
-  const emailLink = () => {
-    window.location.href = 'mailto:christiantaylorhart@gmail.com';
-  };
-  const openResume = () => {
-    window.open('/ChristianHartResume.pdf', '_blank');
-  };
-  const openGitHub = () => {
-    window.open('https://github.com/chart10', '_blank');
-  };
-  const openLinkedIn = () => {
-    window.open(
-      'https://www.linkedin.com/in/christian-hart-7b375174/',
-      '_blank'
-    );
-  };
-
   return (
     <div className='page' id='landing-page'>
       <div id='name-and-title'>
@@ -34,7 +19,7 @@ const LandingPage = () => {
       </div>
       <div id='content-row'>
         <div id='headshot'>
-          <img src='' alt="Christian's Headshot" />
+          <img src={portrait} alt="Christian's Headshot" />
         </div>
         <div id='content-col'>
           <p className='landing-content'>

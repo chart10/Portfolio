@@ -13,7 +13,6 @@ import {
 } from 'react-icons/si';
 /*
     TODO:
-    * Make a project card for CreatureDB
     - Make a project card for Animal Memory card flip game
     - design a more visually interesting tech stack list
     - Make scrolling from card to card more visually pleasing
@@ -126,7 +125,7 @@ const ProjectsPage = () => {
                 </p>
               </div>
             </div>
-            <img src={creaturedb} alt='UniRoute Webpage' />
+            <img src={creaturedb} alt='CreatureDB Webpage' />
           </div>
         </div>
       </article>

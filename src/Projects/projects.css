@@ -56,9 +56,13 @@
   font-family: migra;
   font-size: 1rem;
   align-items: center;
+  margin-right: 12px;
 }
 .project-text-footer a {
   align-items: center;
+}
+.project-text-footer a:hover {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 800px) {
