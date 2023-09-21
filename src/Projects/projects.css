@@ -75,4 +75,7 @@
   .project-card img {
     max-width: 100%;
   }
+  .project-text-footer {
+    margin-right: 0;
+  }
 }

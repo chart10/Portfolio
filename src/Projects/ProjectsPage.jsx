@@ -106,7 +106,7 @@ const ProjectsPage = () => {
               <p>
                 Creature DB is a full stack website built as a veterinary
                 records management tool, allowing customers to view the medical
-                records of thier pets and healthcare professionals to edit and
+                records of their pets and healthcare professionals to edit and
                 update record details.
               </p>
               <div className='project-text-footer'>
