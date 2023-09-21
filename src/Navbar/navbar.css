@@ -25,4 +25,7 @@ nav {
 .site-links a {
   padding: 1rem;
   padding-right: 0;
+  text-shadow: #131313 0 0 4px;
+}
+.nav-link-text {
 }

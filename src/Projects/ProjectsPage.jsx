@@ -1,4 +1,6 @@
 import './projects.css';
+import { projects } from '../assets/projects';
+import ProjectCard from '../components/projectCard/projectCard';
 import uniroute from '../assets/uniroute-screenshot.png';
 import creaturedb from '../assets/creaturedb-screenshot.png';
 import { BsArrowReturnRight, BsBoxArrowInRight } from 'react-icons/bs';
@@ -22,6 +24,9 @@ const ProjectsPage = () => {
   return (
     <div className='page' id='projects-page'>
       <h4>Projects</h4>
+      {projects.map((project) => {
+        return <ProjectCard key={project.id} {...project} />;
+      })}
       <article className='project-card'>
         <div className='card-content'>
           <div className='project-title'>

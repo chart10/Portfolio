@@ -41,12 +41,9 @@
 .card-content p {
   align-self: self-start;
 }
-.project-card img {
-  /* width: 400px; */
+.project-elements img {
   max-width: 50%;
   object-fit: contain;
-  /* height: 220px; */
-  /* max-height: 220px; */
   border-radius: 2px;
 }
 .project-text-footer {

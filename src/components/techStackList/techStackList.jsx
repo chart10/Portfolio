@@ -1,8 +1,12 @@
-const techStackList = (props) => {
+const techStackList = ({ techStack }) => {
   return (
     <div id='tech-stack-container'>
-      {props.teckStack.map(() => {
-        return <>Icon</>;
+      {techStack.map((icon, index) => {
+        return (
+          <a href='' key={index}>
+            {icon}
+          </a>
+        );
       })}
     </div>
   );

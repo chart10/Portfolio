@@ -16,7 +16,9 @@ const Navbar = () => {
           </div>
           <div className='social-links'>{/* resume, LinkedIn, GitHub */}</div>
           <div className='site-links'>
-            <a href='#about-me'>About Me</a>
+            <a href='#about-me'>
+              <span className='nav-link-text'>About Me</span>
+            </a>
             <a href='#projects-page'>Projects</a>
             <a href='#contact-me-page'>Contact Me</a>
           </div>
