@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import LandingPage from './Landing/LandingPage';
 import AboutMe from './AboutMe/AboutMe';
+import Skills from './Skills/skills';
 import ProjectsPage from './Projects/ProjectsPage';
 import ContactMe from './ContactMe/ContactMe';
 import Navbar from './Navbar/Navbar';
@@ -32,10 +33,12 @@ function App() {
     <div id='page'>
       <Navbar />
       <LandingPage />
-      <AboutMe />
+      <Skills />
       <ProjectsPage />
       <Footer />
-      <ContactMe />
+      <div id='contact-me-page'>
+        <ContactMe />
+      </div>
     </div>
   );
 }
