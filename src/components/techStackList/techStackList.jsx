@@ -1,3 +1,4 @@
+import './techStackList.css';
 import { ToolIcon } from '../../util/tools';
 
 const techStackList = ({ techStack }) => {

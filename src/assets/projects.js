@@ -23,3 +23,18 @@ export const projects = [
     image: creaturedbImg,
   },
 ];
+export const skillList = [
+  'JavaScript',
+  'React.js',
+  'Node.js',
+  'HTML5',
+  'CSS',
+  'Java',
+  'Python',
+  'Flask',
+  'MySQL',
+  'Git',
+  'GitHub',
+  'Figma',
+  'Docker',
+];

@@ -13,9 +13,9 @@ const projectCard = ({ title, id, text, url, repoURL, techStack, image }) => {
         <div className='project-text'>
           <p>{text}</p>
           <div className='project-text-footer'>
-            <a href={url} target='_blank' className='project-site-link'>
+            {/* <a href={url} target='_blank' className='project-site-link'>
               <BsArrowReturnRight /> Try it!
-            </a>
+            </a> */}
             <a href={repoURL} target='_blank' className='project-src'>
               <BsArrowReturnRight /> Source Code
             </a>
