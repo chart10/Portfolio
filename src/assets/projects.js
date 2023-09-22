@@ -19,7 +19,7 @@ export const projects = [
     text: 'Creature DB is a full stack website built as a veterinary records management tool, allowing customers to view the medical records of their pets and healthcare professionals to edit and update record details.',
     url: '',
     repoURL: 'https://github.com/joshcortes/PetApp',
-    techStack: ['Vanilla JavaScript', 'Python', 'Flask', 'Node.js', 'MySQL'],
+    techStack: ['JavaScript', 'Python', 'Flask', 'Node.js', 'MySQL'],
     image: creaturedbImg,
   },
 ];
