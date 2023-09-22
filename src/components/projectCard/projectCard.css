@@ -14,9 +14,13 @@
 .project-title {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+}
+.project-title h3 {
+  font-size: 32px;
+  margin: 0.5rem 0;
 }
 .project-title a {
   padding-left: 1.5rem;
@@ -39,7 +43,7 @@
 .card-content p {
   align-self: self-start;
 }
-.project-card img {
+.project-card-container img {
   max-width: 50%;
   object-fit: contain;
   border-radius: 2px;
@@ -67,7 +71,7 @@
   .project-elements {
     flex-direction: column;
   }
-  .project-card img {
+  .project-card-container img {
     max-width: 100%;
   }
   .project-text-footer {
