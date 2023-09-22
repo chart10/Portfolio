@@ -12,8 +12,8 @@ const AboutMe = () => {
   return (
     <div className='page' id='about-me'>
       <div id='about-me-heading'>
-        <h4 id='about-me-title'>About Me</h4>
-        <h5 id='about-me-subtitle'>Designer, Developer & Collaborator</h5>
+        <h4 id='about-me-title'>Hello! I'm Christian</h4>
+        <h5 id='about-me-subtitle'>Web Developer & Software Engineer</h5>
       </div>
       <div id='about-me-text'>
         <p>
