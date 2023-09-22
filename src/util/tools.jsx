@@ -15,6 +15,9 @@ import {
 import PropTypes from 'prop-types';
 
 // TOOL CONSTANTS
+/* TODO:
+    - Design a card for tech icons that displays its name on hover
+*/
 
 export const REACT = 'React.js';
 export const PYTHON = 'Python';

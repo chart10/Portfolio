@@ -1,10 +1,6 @@
 import './navbar.css';
+
 const Navbar = () => {
-  /* 
-    TODO: 
-    - Include links to my resume, LinkedIn page, GitHub page
-    - Add 
-    */
   return (
     <>
       <nav>
@@ -14,7 +10,6 @@ const Navbar = () => {
               <a href='#landing-page'>CHRISTIAN HART</a>
             </h3>
           </div>
-          <div className='social-links'>{/* resume, LinkedIn, GitHub */}</div>
           <div className='site-links'>
             <a href='#landing-page'>About Me</a>
             <a href='#projects-page'>Projects</a>
@@ -22,7 +17,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      {/* <div className='nav-border'></div> */}
     </>
   );
 };

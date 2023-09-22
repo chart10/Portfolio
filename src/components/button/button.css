@@ -20,6 +20,9 @@
 .btn p {
   margin: 0;
 }
+
+/* TEXT TICKER EXPERIMENT */
+
 /* #text-scroll {
   animation: text-ticker 3s linear infinite;
   animation-play-state: paused;
@@ -35,6 +38,7 @@
     transform: translateX(115%);
   }
 } */
+
 .button-icon {
   border-radius: 50%;
   padding: 0 0.4rem;

@@ -6,7 +6,6 @@ import portrait from '../assets/christian-hart-portrait2.jpg';
   TODO:
     - Think of and implement a programming idea to pull the viewer in,
       Need to be unique and visual interesting
-    - Include a one sentence bio
     - Add code to prepopulate Email Subject line
 */
 
