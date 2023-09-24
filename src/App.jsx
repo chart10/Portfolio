@@ -1,11 +1,7 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
-import LandingPage from './Landing/LandingPage';
-import AboutMe from './AboutMe/AboutMe';
-import Skills from './skills/skills';
-import ProjectsPage from './Projects/ProjectsPage';
-import Navbar from './Navbar/Navbar';
+import LandingPage from './pages/Landing/LandingPage';
+import Skills from './pages/skills/skills';
+import ProjectsPage from './pages/Projects/ProjectsPage';
+import Navbar from './components/Navbar/Navbar';
 import Footer from './components/footer/footer';
 
 /* 
