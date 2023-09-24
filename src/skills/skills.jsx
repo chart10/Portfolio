@@ -4,8 +4,8 @@ import { ToolIcon } from '../util/tools';
 
 const skills = () => {
   return (
-    <div className='page' id='skills-page'>
-      <h4 id='skills-title'>My Skills</h4>
+    <section className='page' id='skills-page'>
+      <h1 id='skills-title'>My Skills</h1>
       <div id='skills-container'>
         {skillList.map((tool, index) => {
           return (
@@ -16,7 +16,7 @@ const skills = () => {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 };
 export default skills;

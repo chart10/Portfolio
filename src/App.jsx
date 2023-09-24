@@ -29,8 +29,8 @@ function App() {
         <LandingPage />
         <Skills />
         <ProjectsPage />
-        <Footer />
       </main>
+      <Footer />
     </>
   );
 }

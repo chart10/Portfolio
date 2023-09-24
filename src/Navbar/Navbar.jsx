@@ -5,11 +5,9 @@ const Navbar = () => {
     <>
       <nav>
         <div className='navbar-menu'>
-          <div className='my-name'>
-            <h3>
-              <a href='#landing-page'>CHRISTIAN HART</a>
-            </h3>
-          </div>
+          <a id='navbar-name' href='#landing-page'>
+            CHRISTIAN HART
+          </a>
           <div className='site-links'>
             <a href='#landing-page'>About Me</a>
             <a href='#projects-page'>Projects</a>

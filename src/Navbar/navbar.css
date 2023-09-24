@@ -27,3 +27,9 @@ nav {
   padding-right: 0;
   text-shadow: 1px 1px 1px #131313, 0 0 6px #131313;
 }
+#navbar-name {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 20px;
+}

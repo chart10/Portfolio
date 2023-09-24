@@ -11,10 +11,10 @@ import portrait from '../assets/christian-hart-portrait2.jpg';
 
 const LandingPage = () => {
   return (
-    <div className='page' id='landing-page'>
+    <section className='page' id='landing-page'>
       <div id='name-and-title'>
-        <h4 id='landing-name'>Christian Hart</h4>
-        <h5 id='landing-name-subtitle'>Web Developer & Software Engineer</h5>
+        <h1 id='landing-name'>Christian Hart</h1>
+        <p id='landing-name-subtitle'>Web Developer & Software Engineer</p>
       </div>
       <div id='content-row'>
         <div id='headshot'>
@@ -31,7 +31,7 @@ const LandingPage = () => {
           <ContactMe />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 export default LandingPage;
