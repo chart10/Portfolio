@@ -13,6 +13,7 @@ nav {
 }
 .navbar-menu {
   width: 90%;
+  height: 100%;
   display: flex;
   flex-flow: row;
   align-items: center;

@@ -8,7 +8,7 @@ import {
 
 const footer = () => {
   return (
-    <footer>
+    <footer id='contact-me-page'>
       <p>
         Website designed by me! <BsChatHeart />
       </p>
