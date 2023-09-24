@@ -2,11 +2,15 @@ import './projectCard.css';
 import { BsArrowReturnRight, BsBoxArrowInRight } from 'react-icons/bs';
 import TechStackList from '../techStackList/techStackList';
 
+/* TODO:
+    - Deploy all projects and link them with 'Try it!'
+*/
+
 const projectCard = ({ title, id, text, url, repoURL, techStack, image }) => {
   return (
     <article className='project-card-container'>
       <div className='project-title'>
-        <h3>{title}</h3>
+        <h2>{title}</h2>
         <TechStackList key={id} techStack={techStack} />
       </div>
       <div className='project-elements'>
@@ -21,7 +25,7 @@ const projectCard = ({ title, id, text, url, repoURL, techStack, image }) => {
             </a>
           </div>
         </div>
-        <img src={image} alt={title} />
+        <img src={image} alt={`${title} Landing Page`} />
       </div>
     </article>
   );

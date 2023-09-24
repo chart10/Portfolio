@@ -17,8 +17,12 @@ const LandingPage = () => {
         <p id='landing-name-subtitle'>Web Developer & Software Engineer</p>
       </div>
       <div id='content-row'>
-        <div id='headshot'>
-          <img src={portrait} alt="Christian's Headshot" />
+        <div id='headshot-container'>
+          <img
+            id='headshot'
+            src={portrait}
+            alt='Christian Hart Headshot 2023'
+          />
         </div>
         <div id='content-col'>
           <p className='landing-text'>

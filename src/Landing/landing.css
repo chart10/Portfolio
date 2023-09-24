@@ -30,13 +30,13 @@
   font-weight: 100;
   font-size: 1.2rem;
 }
-#headshot {
+#headshot-container {
   height: 400px;
   width: 400px;
   min-width: 250px;
   margin: 1rem;
 }
-#headshot img {
+#headshot {
   width: 100%;
   height: auto;
   border: 1px solid rgba(245, 238, 230, 0.5);

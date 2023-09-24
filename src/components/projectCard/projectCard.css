@@ -18,7 +18,7 @@
   align-items: center;
   width: 100%;
 }
-.project-title h3 {
+.project-title h2 {
   font-size: 32px;
   margin: 0.5rem 0;
 }
@@ -33,15 +33,6 @@
 }
 .project-elements p {
   text-align: left;
-}
-.card-content h3 {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-family: 'Hanken Grotesk', sans-serif;
-  align-self: self-start;
-}
-.card-content p {
-  align-self: self-start;
 }
 .project-card-container img {
   max-width: 50%;
