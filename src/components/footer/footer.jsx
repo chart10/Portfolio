@@ -1,4 +1,5 @@
 import './footer.css';
+import ContactMe from '../../ContactMe/ContactMe';
 import {
   BsChatHeart,
   BsBoxArrowInRight,
@@ -7,7 +8,7 @@ import {
 
 const footer = () => {
   return (
-    <div className='footer'>
+    <footer>
       <p>
         Website designed by me! <BsChatHeart />
       </p>
@@ -16,7 +17,8 @@ const footer = () => {
           <BsArrowReturnRight /> Source Code
         </a>
       </p>
-    </div>
+      <ContactMe />
+    </footer>
   );
 };
 export default footer;

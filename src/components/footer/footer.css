@@ -1,16 +1,16 @@
-.footer {
+footer {
   margin: 1rem auto;
 }
-.footer p {
+footer p {
   margin: 0;
   font-weight: 100;
   font-size: 1.2rem;
   font-family: migra;
 }
-.footer a {
+footer a {
   width: fit-content;
 }
-.footer a:hover {
+footer a:hover {
   text-decoration: none;
 }
 
