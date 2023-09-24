@@ -1,6 +1,6 @@
 import './landing.css';
 import ContactMe from '../ContactMe/ContactMe';
-import portrait from '../assets/christian-hart-portrait2.jpg';
+import portrait from '../assets/headshot-550x550.png';
 
 /*
   TODO:
