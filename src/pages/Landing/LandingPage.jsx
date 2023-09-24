@@ -1,5 +1,5 @@
-import './landing.css';
-import ContactMe from '../../components/ContactMe/ContactMe';
+import './landingPage.css';
+import ContactMe from '../../components/contactMe/contactMe';
 import portrait from '../../assets/headshot-550x550.png';
 
 /*

@@ -1,4 +1,4 @@
-import './projects.css';
+import './projectsPage.css';
 import { projects } from '../../assets/projects';
 import ProjectCard from '../../components/projectCard/projectCard';
 
