@@ -1,4 +1,4 @@
-import { FaJava, FaFigma } from 'react-icons/fa';
+import { FaJava, FaFigma, FaSass } from 'react-icons/fa';
 import { GrMysql } from 'react-icons/gr';
 import {
   SiJavascript,
@@ -32,6 +32,7 @@ export const GIT = 'Git';
 export const GITHUB = 'GitHub';
 export const FIGMA = 'Figma';
 export const JAVA = 'Java';
+export const SASS = 'SASS';
 
 export const toolToIcon = {
   [REACT]: <SiReact title='React.js' />,
@@ -47,6 +48,7 @@ export const toolToIcon = {
   [GIT]: <SiGit title='Git' />,
   [GITHUB]: <SiGithub title='GitHub' />,
   [FIGMA]: <FaFigma title='Figma' />,
+  [SASS]: <FaSass title='SASS' />,
 };
 
 export const ToolIcon = (props) => {

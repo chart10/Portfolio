@@ -1,8 +1,18 @@
 import unirouteImg from './uniroute-screenshot.png';
 import creaturedbImg from './creaturedb-screenshot.png';
+import lotionGif from './lotion.gif';
 import { SiReact } from 'react-icons/si';
 
 export const projects = [
+  {
+    title: 'Lotion',
+    id: 0,
+    text: 'Lotion is a note taking app designed for users to record there thoughts with a pleasent and intuitive interface.',
+    url: '',
+    repoURL: 'https://github.com/chart10/Lotion',
+    techStack: ['React.js', 'SASS'],
+    image: lotionGif,
+  },
   {
     title: 'UniRoute',
     id: 1,
