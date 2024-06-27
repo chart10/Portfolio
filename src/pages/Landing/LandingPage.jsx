@@ -1,5 +1,5 @@
-import './landingPage.css';
-import ContactMe from '../../components/contactMe/contactMe';
+import './LandingPage.css';
+import ContactMe from '../../components/ContactMe/ContactMe';
 import portrait from '../../assets/headshot-550x550.png';
 
 const LandingPage = () => {

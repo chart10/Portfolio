@@ -1,5 +1,5 @@
-import './footer.css';
-import ContactMe from '../contactMe/contactMe';
+import './Footer.css';
+import ContactMe from '../ContactMe/ContactMe';
 import {
   BsChatHeart,
   BsBoxArrowInRight,

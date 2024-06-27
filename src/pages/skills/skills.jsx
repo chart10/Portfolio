@@ -1,6 +1,6 @@
-import './skills.css';
+import './Skills.css';
 import { skillList } from '../../assets/projects';
-import { ToolIcon } from '../../components/toolIcon/toolIcon';
+import { ToolIcon } from '../../components/ToolIcon/ToolIcon';
 
 const skills = () => {
   return (

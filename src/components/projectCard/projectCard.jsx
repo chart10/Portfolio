@@ -1,4 +1,4 @@
-import './projectCard.css';
+import './ProjectCard.css';
 import { BsArrowReturnRight, BsBoxArrowInRight } from 'react-icons/bs';
 import TechStackList from '../techStackList/techStackList';
 
