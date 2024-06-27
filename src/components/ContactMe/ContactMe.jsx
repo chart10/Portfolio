@@ -4,11 +4,6 @@ import IconButton from '../iconButton/iconButton';
 import { SiGithub } from 'react-icons/si';
 import { FaLinkedinIn } from 'react-icons/fa';
 
-/*
-  TODO:
-    - Make a more interesting, visually pleasing button hover animation
-*/
-
 const ContactMe = () => {
   const emailLink = () => {
     window.location.href = 'mailto:christiantaylorhart@gmail.com';

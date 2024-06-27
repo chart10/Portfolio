@@ -2,11 +2,8 @@ import './projectCard.css';
 import { BsArrowReturnRight, BsBoxArrowInRight } from 'react-icons/bs';
 import TechStackList from '../techStackList/techStackList';
 
-/* TODO:
-    - Deploy all projects and link them with 'Try it!'
-*/
-
 const projectCard = ({ title, id, text, url, repoURL, techStack, image }) => {
+  const websiteAvailable = url !== '';
   return (
     <article className='project-card-container'>
       <div className='project-title'>
@@ -17,9 +14,11 @@ const projectCard = ({ title, id, text, url, repoURL, techStack, image }) => {
         <div className='project-text'>
           <p>{text}</p>
           <div className='project-text-footer'>
-            {/* <a href={url} target='_blank' className='project-site-link'>
-              <BsArrowReturnRight /> Try it!
-            </a> */}
+            {websiteAvailable && (
+              <a href={url} target='_blank' className='project-site-link'>
+                <BsArrowReturnRight /> Try it!
+              </a>
+            )}
             <a href={repoURL} target='_blank' className='project-src'>
               <BsArrowReturnRight /> Source Code
             </a>

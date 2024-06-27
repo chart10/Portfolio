@@ -2,13 +2,6 @@ import './landingPage.css';
 import ContactMe from '../../components/contactMe/contactMe';
 import portrait from '../../assets/headshot-550x550.png';
 
-/*
-  TODO:
-    - Think of and implement a programming idea to pull the viewer in,
-      Need to be unique and visual interesting
-    - Add code to prepopulate Email Subject line
-*/
-
 const LandingPage = () => {
   return (
     <section className='page' id='landing-page'>

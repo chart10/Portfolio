@@ -8,7 +8,7 @@ export const projects = [
     title: 'Lotion',
     id: 0,
     text: 'Lotion is a note taking app designed for users to record there thoughts with a pleasent and intuitive interface.',
-    url: '',
+    url: 'https://lotion-notetaker.netlify.app/',
     repoURL: 'https://github.com/chart10/Lotion',
     techStack: ['React.js', 'SASS'],
     image: lotionGif,

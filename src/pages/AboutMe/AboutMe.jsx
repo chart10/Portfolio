@@ -1,13 +1,5 @@
 import './aboutMe.css';
 
-/*
-  TODO:
-    * Write a brief but thorough synopsis of what I'm all about:
-      my skills, ambitions, interests and passions
-    - Give this page some visual flair
-    - Add a list of tech I've worked with
-*/
-
 const AboutMe = () => {
   return (
     <div className='page' id='about-me'>
