@@ -1,7 +1,11 @@
 import './TechStackList.css';
-import { ToolIcon } from '../toolIcon/toolIcon';
+import { ToolIcon } from '../toolIcon/toolIcon.tsx';
 
-const techStackList = ({ techStack }) => {
+interface Props {
+  techStack: string[];
+}
+
+const techStackList = ({ techStack }: Props) => {
   return (
     <div id='tech-stack-container'>
       {techStack.map((tool, index) => {

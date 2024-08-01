@@ -1,6 +1,6 @@
 import './ContactMe.css';
-import Button from '../Button/Button';
-import IconButton from '../iconButton/iconButton';
+import Button from '../button/button.tsx';
+import IconButton from '../iconButton/iconButton.tsx';
 import { SiGithub } from 'react-icons/si';
 import { FaLinkedinIn } from 'react-icons/fa';
 

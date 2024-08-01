@@ -1,8 +1,26 @@
 import './ProjectCard.css';
 import { BsArrowReturnRight, BsBoxArrowInRight } from 'react-icons/bs';
-import TechStackList from '../techStackList/techStackList';
+import TechStackList from '../techStackList/techStackList.tsx';
 
-const projectCard = ({ title, id, text, url, repoURL, techStack, image }) => {
+interface Props {
+  title: string;
+  id: number;
+  text: string;
+  url: string;
+  repoURL: string;
+  techStack: string[];
+  image: string;
+}
+
+const projectCard = ({
+  title,
+  id,
+  text,
+  url,
+  repoURL,
+  techStack,
+  image,
+}: Props) => {
   const websiteAvailable = url !== '';
   return (
     <article className='project-card-container'>

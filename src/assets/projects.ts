@@ -1,9 +1,18 @@
 import unirouteImg from './uniroute-screenshot.png';
 import creaturedbImg from './creaturedb-screenshot.png';
 import lotionGif from './lotion.gif';
-import { SiReact } from 'react-icons/si';
 
-export const projects = [
+interface Project {
+  title: string;
+  id: number;
+  text: string;
+  url: string;
+  repoURL: string;
+  techStack: string[];
+  image: string;
+}
+
+export const projects: Project[] = [
   {
     title: 'Lotion',
     id: 0,

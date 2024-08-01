@@ -1,6 +1,6 @@
 import './ProjectsPage.css';
-import { projects } from '../../assets/projects';
-import ProjectCard from '../../components/ProjectCard/ProjectCard';
+import { projects } from '../../assets/projects.ts';
+import ProjectCard from '../../components/projectCard/projectCard.tsx';
 
 /*
     TODO:

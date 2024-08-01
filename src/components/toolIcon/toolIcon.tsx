@@ -13,6 +13,7 @@ import {
   SiGithub,
 } from 'react-icons/si';
 import PropTypes from 'prop-types';
+import { ReactElement } from 'react';
 
 export const REACT = 'React.js';
 export const PYTHON = 'Python';
@@ -29,7 +30,7 @@ export const FIGMA = 'Figma';
 export const JAVA = 'Java';
 export const SASS = 'SASS';
 
-export const toolToIcon = {
+export const toolToIcon: { [key: string]: ReactElement } = {
   [REACT]: <SiReact title='React.js' />,
   [PYTHON]: <SiPython title='Python' />,
   [FLASK]: <SiFlask title='Flask' />,
@@ -46,8 +47,18 @@ export const toolToIcon = {
   [SASS]: <FaSass title='SASS' />,
 };
 
-export const ToolIcon = (props) => {
-  return <a title={props.tool}>{toolToIcon[props.tool]}</a>;
+// type Tool = keyof typeof toolToIcon;
+interface Props {
+  tool: string;
+  className?: string;
+}
+
+export const ToolIcon = (props: Props) => {
+  return (
+    <a title={props.tool} className={props.className}>
+      {toolToIcon[props.tool]}
+    </a>
+  );
 };
 
 ToolIcon.propTypes = { tool: PropTypes.string };
