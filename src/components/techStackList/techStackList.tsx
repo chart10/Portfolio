@@ -1,5 +1,5 @@
 import './TechStackList.css';
-import { ToolIcon } from '../ToolIcon/ToolIcon';
+import { ToolIcon } from '../toolIcon/toolIcon';
 
 const techStackList = ({ techStack }) => {
   return (
